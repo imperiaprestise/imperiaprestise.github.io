@@ -8,22 +8,18 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body{
   background-color: var(--mainColor);
 /*   width: 1280px;
   height: 720px; */
   font-family: 'poppins';
-  margin: 0;
 }
 .logoo{
-margin-top: -6px;
-margin-bottom: 8px;
+  margin: 0 auto;
+  margin-top: -6px;
+  margin-bottom: 8px;
 }
 .navbar-collapse{
 margin-top: -2px;
@@ -421,18 +417,7 @@ margin-top: 30px;
 .cardya{
   background-color: #fff;
 }
-.container,
-.container-fluid,
-.container-sm,
-.container-md,
-.container-lg,
-.container-xl {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 
 /*@media (max-width: 880px) { 
 .card{
