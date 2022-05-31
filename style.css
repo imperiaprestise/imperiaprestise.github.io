@@ -2,6 +2,11 @@
   --mainColor : #567047;
   --secondaryColor: #383414;
   --acsentColor: #f8f4fc;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
 }
 *,
 *::before,
@@ -118,6 +123,15 @@ margin-top: 50px;
 margin-bottom: 60px;
 width: 100%;
 } */
+
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 2.6s;
+}
 .textslides{
 text-align: center;
 font-weight: bold;
@@ -128,7 +142,6 @@ font-size: 110px;
 /* academics */
 #academics{
   height: 500px;
-width: 100%;
 margin-top: 80px;
 }
 hr{
@@ -408,8 +421,20 @@ margin-top: 30px;
 .cardya{
   background-color: #fff;
 }
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-@media (max-width: 880px) { 
+/*@media (max-width: 880px) { 
 .card{
   margin-left: -120px;
   margin-right: 20px;
@@ -643,6 +668,78 @@ h3{
   width: 100px;
   height: 60px;
 }
+}*/
+/*@media (max-width: 1200px){
+  #contact{
+    color: #000000;
+    background-color: #fff;
+    height: 680px;
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+#academics{
+  height: 1360px;
+}
+.akademik{
+  margin-top: 10px;
+  margin-bottom: 140px;
+}
+#popular{
+  display:none;
+}
+.buttoncrs{
+  align-items: center;
+}
+#profilee{
+  height: 1280px;
+}
 
+#profilepage{
+  height: 1380px;
+}
 
 }
+*/
+@media (max-width: 575.98px) {
+  .contact{
+    height: 1000px;
+  }
+  #profilee{
+    height: 1280px;
+  }
+  .img-circle{
+    margin-top: -18px;
+  }
+  #profilepage{
+    height: 1380px;
+  }
+  #popular{
+    display: none ;
+  }
+  #academics{
+    height: 1200px;
+  }
+  .buttoncrs{
+    margin-left: 80px;
+  }
+  .akademik{
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  .container, .container-sm {
+    max-width: 540px;
+  }
+}
+@media (max-width: 767.98px) { 
+  #profilepage{
+    height: 500px;
+  }
+ }
+@media (max-width: 991.98px) { 
+  #profilepage{
+    height: 50px;
+  }
+ }
+
