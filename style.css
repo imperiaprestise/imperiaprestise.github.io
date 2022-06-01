@@ -245,9 +245,16 @@ border-color: var(--mainColor);
 width: 200px;
 
 }
+.buttoncert{
+  width: fit-content;
+  background-color: var(--mainColor);
+  border-color: var(--mainColor);
+  margin: auto;
+}
 .garis{
 width: 360px;
 }
+
 
 /* end popular courses */
 
@@ -416,6 +423,9 @@ margin-top: 30px;
 }
 .cardya{
   background-color: #fff;
+}
+#login{
+  width: max-content;
 }
 
 
@@ -688,18 +698,22 @@ h3{
 }
 */
 @media (max-width: 575.98px) {
-  .contact{
-    height: 1000px;
+  #contactpage{
+    height: 880px;
+  }
+  #contact{
+    height: 780px;
   }
   #profilee{
     height: 1280px;
   }
-  .img-circle{
-    margin-top: -18px;
-  }
   #profilepage{
     height: 1380px;
   }
+  .img-circle{
+    margin-top: -18px;
+  }
+
   #popular{
     display: none ;
   }
@@ -716,15 +730,96 @@ h3{
   .container, .container-sm {
     max-width: 540px;
   }
+  .cardya{
+    width: 360px;
+    margin-left: -90px;
+  }
+  video{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+.cert{
+  height: 800px;
+}
+  #getcert{
+    height: 400px;
+  }
+.loginn{
+  display: none;
+}
+
+.seemore{
+ border-color: var(--secondaryColor);
+ color: var(--secondaryColor);
+ margin: 0 auto;
+ margin-left: 37%;
+}
+.seemore:hover{
+  color: var(--mainColor);
+}
+.buttoncourses1{
+display: none;
+  }
+  .bordercourse{
+    margin-bottom: 20px;
+    border-color: #333;
+  }
+  #university-list{
+    height: 1500px;
+  }
+
 }
 @media (max-width: 767.98px) { 
-  #profilepage{
-    height: 500px;
+  .textslides{
+    text-align: center;
+    margin-bottom: 20px;
   }
+
  }
 @media (max-width: 991.98px) { 
-  #profilepage{
-    height: 50px;
+  .textslides{
+    text-align: center;
+    margin: 0 auto;
+    margin-left: -50px;
   }
+  #popular{
+    display: none;
+  }
+  #academics{
+    height: 1200px;
+  }
+  .akademik{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  .bordercourse3{
+    display: none;
+  }
+  .buttoncourses1{
+    margin: 0 auto;
+    width: 335px;
+    margin-top: -2px;
+    background-color: var(--mainColor);
+    border-color: var(--mainColor);
+    }
+    .popularrow1{
+      margin-bottom: 10px;
+    }
+    #popular1{
+      height: 1000px;
+    }
+    video{
+      width: 100%;
+      height: 100%;
+      margin-top: 20px;
+    }
+    .gambarlog{
+      display: none;
+    }
+
+
+
  }
 
