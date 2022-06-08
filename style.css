@@ -14,34 +14,72 @@ body{
   background-color: var(--mainColor);
 /*   width: 1280px;
   height: 720px; */
-  font-family: 'poppins';
+  font-family: 'Poppins';
+  margin: 0;
 }
-.logoo{
-  margin: 0 auto;
-  margin-top: -6px;
-  margin-bottom: 8px;
-}
-.navbar-collapse{
-margin-top: -2px;
-margin-bottom: 6px;
-font-weight: 100;
-}
+
+
 /* Navbar */
-.navbar{
-margin-top: 16px;
-font-size: 16px;
-font-weight: 100;
-background-color: var(--mainColor);
+.halamanhome{
+  width: fit-content;
+  height: fit-content;
+  background-color: var(--mainColor);
 }
-.nav-link{
-color: var(--acsentColor) !important;
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
 }
-.nav-link.active{
-color:var(--secondaryColor) !important;
-font-weight: 300;
+.footerr{
+  background-color: var(--mainColor);
+}
+.kontenlogin{
+  height: 460px;
+  background-color: #fff;
+}
+.kontenregister{
+  height: 600px;
 }
 .buttoncourses1{
   color: #fff;
+}
+.navbar-brand{
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-size: 28px;
+  color: #fff;
+}
+.navbar{
+  background-color: var(--mainColor);
+}
+
+.loginn:hover{
+  color: #fff;
+}
+#text-center{
+  font-family: 'Poppins';
+}
+
+#login-page{
+  font-family: 'Poppins';
+  background-color: #fff;
+  margin-top: 70px;
+}
+#register-page{
+  font-family: 'Poppins';
+  background-color: #fff;
+  margin-top: 60px;
+
+}
+.navbar:hover{
+  color: #383414;
+}
+.navbar-nav{
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 2px;
 }
 .btn-primary1{
 color: var(--acsentColor);
@@ -92,11 +130,15 @@ line-height: 20px;
 
 
 /*isi konten*/
-
+#slides{
+  margin-top: 60px
+}
 .img-fluid{
 margin-right: 200px;
 }
-
+.textslides{
+  width:800;
+}
 .login{
 color: var(--secondaryColor);
 }
@@ -173,10 +215,11 @@ margin-left: 100px;
 
 /* popular courses */
 #popular{
-height: 660px;
+height: 700px;
 margin-top: 0px;
 }
 #popular1{
+  margin-top: 70px;
 height: 1100px;
 }
 
@@ -220,6 +263,7 @@ color: #10100d;
 font-size: 14px;
 color: #757575;
 text-align: center;
+
 }
 .follow{
 background-color: var(--mainColor);
@@ -265,7 +309,8 @@ width: 360px;
   height: 800px;
 }
 #silabuspage{
-  height: 800px;
+  margin-top: 70px;
+  height: 880px;
 }
 #contact{
   height: 500px;
@@ -351,7 +396,7 @@ color: #fff;
 margin: auto;
 width: 180px;
 font-size: 16px;
-margin-left: 90px;
+margin-left: 80px;
 align-items: center;
 margin-bottom: 20px;
 background-color: var(--mainColor);
@@ -364,7 +409,8 @@ color: var(--acsentColor);
 }
 .teksfooter{
   color: #fff;
-  font-weight: 10;
+  font-size: 14px;
+  font-weight: 600;
 }
 .garisfooter{
 width: 130px;
@@ -418,7 +464,8 @@ margin-top: 30px;
 }
 /* end footer */
 .akademik{
-  width: 370px;
+  margin-left: 40px;
+  width: 350px;
   margin-left: 5px;
 }
 .cardya{
@@ -427,8 +474,29 @@ margin-top: 30px;
 #login{
   width: max-content;
 }
-
-
+.navbar-toggler{
+  background-color: var(--mainColor);
+}
+.navbar-toggler-icon{
+  background-color: #567047;
+}
+.navbar-collapse{
+  margin-top: -2px;
+  margin-bottom: 6px;
+  font-weight: 100;
+  }
+  /* Navbar */
+  .navbar{
+    width: 0 auto;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 100;
+  background-color: var(--mainColor);
+  }
+  .nav-item{
+    margin-top: 10px;
+  }
+ 
 /*@media (max-width: 880px) { 
 .card{
   margin-left: -120px;
@@ -720,6 +788,9 @@ h3{
   #academics{
     height: 1200px;
   }
+  .navbar{
+    background-color: #567047;
+  }
   .buttoncrs{
     margin-left: 80px;
   }
@@ -768,7 +839,38 @@ display: none;
   #university-list{
     height: 1500px;
   }
-
+  .navbar{
+    margin-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .navbar-toggler{
+    background-color: var(--mainColor);
+  }
+  .navbar-toggler-icon{
+    background-color: #567047;
+    margin: 0 auto;
+  }
+  .navbar-collapse,.navbar-expand-lg{
+    background-color: var(--mainColor);
+    margin: 0 auto;
+  }
+  .imglogin{
+    display: none;
+  }
+  .kontenlogin{
+    height: 560px;
+  }
+  .btnlogin{
+    width: 70px;
+    margin-bottom: 20px;
+  }
+  .navbarr{
+    margin-bottom: -20px;
+  }
+  .navbarrr{
+    margin-top: -10px;
+  }
 }
 @media (max-width: 767.98px) { 
   .textslides{
