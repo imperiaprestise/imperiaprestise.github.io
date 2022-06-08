@@ -912,7 +912,15 @@ display: none;
     width: 100%;
     margin: 0 auto !important;
     align-items: center;
-    margin-bottom: 20px !important;
+    margin-bottom: 10px !important;
+  }
+  .gambarcard{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .buttoncourses{
+    margin: 0 auto;
+    width: 100%;
   }
 }
 @media (max-width: 767.98px) { 
