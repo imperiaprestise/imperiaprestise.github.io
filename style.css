@@ -106,6 +106,15 @@ font-size: 16px;
   background-color: var(--secondaryColor);
   border-color: var(--secondaryColor);
 }
+.btn-primary6, 
+.btn-primary6:hover {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: var(--secondaryColor);
+  border-color: var(--secondaryColor);
+  align-items: center;
+}
 .btn-primary5{
   color: #fff;
   background-color: var(--mainColor);
@@ -824,8 +833,9 @@ h3{
     margin-left: 80px;
   }
   .akademik{
-    margin-top: 10px;
-    margin-bottom: 100px;
+    margin-left: 40px;
+
+    margin-left: 5px;
   }
   .container, .container-sm {
     max-width: 540px;
@@ -909,17 +919,26 @@ display: none;
     display: none;
   }
   .cards1{
-    width: 100%;
+    width: 90%;
     margin: 0 auto !important;
     align-items: center;
     margin-bottom: 30px !important;
   }
   .gambarcard{
-    margin: 0 auto;
-    width: 100%;
+    margin-left: 0 auto;
+    width: 330px;
   }
   .buttoncourses{
-    margin: 0 auto;
+    margin-left: 0 auto;
+    width: 330px;
+  }
+  .btn-primary{
+    align-items: center !important;
+  }
+  .btn-primary6{
+    margin-left: 28%;
+  }
+  .halamanhome{
     width: 100%;
   }
 }
@@ -982,6 +1001,7 @@ display: none;
     height: 1200px;
   }
   .akademik{
+    width: 75%;
     margin-top: 10px;
     margin-bottom: 100px;
   }
