@@ -934,6 +934,9 @@ display: none;
   .btn-primary{
     align-items: center !important;
   }
+  .btn-primary6{
+    margin-left: 70px;
+  }
 }
 @media (max-width: 767.98px) { 
   .textslides{
