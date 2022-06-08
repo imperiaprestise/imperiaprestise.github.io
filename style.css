@@ -217,7 +217,7 @@ margin-bottom: 120px;
 }
 
 .pic{
-
+width: 127px;
 height: 161px;
 margin: auto;
 margin-top: -100px;
@@ -833,9 +833,8 @@ h3{
     margin-left: 80px;
   }
   .akademik{
-    margin-left: 40px;
-
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 100px;
   }
   .container, .container-sm {
     max-width: 540px;
@@ -934,12 +933,6 @@ display: none;
   }
   .btn-primary{
     align-items: center !important;
-  }
-  .btn-primary6{
-    margin-left: 28%;
-  }
-  .halamanhome{
-    width: 100%;
   }
 }
 @media (max-width: 767.98px) { 
