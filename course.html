@@ -8,8 +8,6 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -21,7 +19,7 @@
 
 <body>
       <!--Navbar-->
-      <section id="halamanhome">
+      <section id="halamancourse">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
           <div class="container px-1">
               <a href="home.html" class="navbar-brand" style="color: #fff;">Edutech</a>
@@ -30,20 +28,20 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarCollapse">
                   <div class="navbar-nav">
-                      <a href="home.html" class="nav-item nav-link navbarr active">Home</a>
-                      <a href="course.html" class="nav-item navbarr nav-link">Courses Catalog</a>
+                      <a href="home.html" class="nav-item nav-link navbarr ">Home</a>
+                      <a href="course.html" class="nav-item navbarr nav-link active">Courses Catalog</a>
                       <div class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">University List</a>
                           <div class="dropdown-menu">
-                              <a href="universitas-indonesia.html" class="dropdown-item">Universitas Indonesia</a>
-                              <a href="universitas-indonesia.html" class="dropdown-item">Universitas Gadjah Mada</a>
-                              <a href="universitas-indonesia.html" class="dropdown-item">Institut Teknologi Bandung</a>
+                              <a href="university-list.html" class="dropdown-item">Universitas Indonesia</a>
+                              <a href="university-list.html" class="dropdown-item">Universitas Gadjah Mada</a>
+                              <a href="university-list.html" class="dropdown-item">Institut Teknologi Bandung</a>
                           </div>
                       </div>
                       <a href="contact.html" class="nav-item navbarrr nav-link" >Contact</a>
                   </div>
                   <div class="navbar-nav ms-auto">
-                    <button type="button" class="btn btnlogin btn-outline-light" style="background-color: transparant; font-weight: 500;"> <a href="login.html"> Login</a></button>
+                    <button type="button" class="btn btnlogin btn-outline-light" style="background-color: transparant; font-weight: 500;"> <a href="profile.html"> Profile </a></button>
                      <!--<a href="login.html" class="nav-item loginn nav-link" style="color: #fff;">Login</a> --> 
                   </div>
               </div>
@@ -63,79 +61,96 @@
               <i class="fa-solid fa-angle-right" style="margin-right: 10px;"></i>
               <span class="current ">Course</span>
             </div>
-            <div class="col-10">
-            </div>
           </div>
 
           <div class="popularrow1 row ">
             
-            <div class="bordercourse col-lg-4 col-md-6">
-              <img src="img/mobilee.png" class="imgcourse card-img-top" alt="mobile">
-              <div class="feature-1 border ">
-                <button class="buttoncourses1 btn rounded-0 btn-outline">Mobile Application </button>
+            <div class="cards1 col-lg-3 col-md-4 col-sm-12 mb-2">
+              <div class="gambarcard col-sm-8">
+              <img src="img/gambarunt.jpg" class="card-img-top"alt="mobile">
+            </div>
+              <div class="feature-1 ">
+                <button class="buttoncourses btn btn-primary rounded-0 btn-outline">Mobile Application </button>
                 <h5>How To Create Mobile Apps <br> Using Iconic</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                <button class="buttoncrs btn btn-primary1 rounded-0 btn-outline"> <a href="silabus.html">Follow Course </a>
-                </button>
+                <p class="card-text">Learn Dart programming language step-by-step, from the very beginning.
+                  Create an excellent portfolio of iOS and Android apps to show off.                      </p>
+                <p><a href="silabus.html" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
               </div>
             </div>
-            <div class="bordercourse col-lg-4 col-md-6 ">
-              <img src="img/frontend.png" class="imgcourse card-img-top" alt="frontend">
-              <div class="feature-1 border">
-                <button class="buttoncourses1 btn rounded-0 btn-outline">Front-end </button>
-                <h5>How To Create Mobile Apps <br> Using Iconic</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="buttoncrs btn btn-primary1 rounded-0 btn-outline"> <a href="silabus.html">Follow Course </a>
-                </button>
+            
+            <div class="cards1 col-lg-3 col-md-4 col-sm-12 mb-2 ">
+              <div class="gambarcard ">
+              <img src="img/gbrr.jpg" class="card-img-top" alt="frontend">
+              </div>
+              <div class="feature-1">
+                <button class="buttoncourses btn btn-primary rounded-0 btn-outline" >Front-end </button>
+                <h5>How To Create Website <br> With Front-end</h5>
+                <p class="card-text">If you would like to get started as a front-end web developer, you are going to LOVE this 
+                  course! Work on projects ranging from a simple HTML page to a complete JavaScript based  </p>
+                <p><a href="silabus.html" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
               </div>
             </div>
-            <div class="bordercourse3 col-lg-4 col-md-6">
-              <img src="img/ds.png" class="imgcourse card-img-top" alt="data science">
-              <div class="feature-1 border">
-                <button class="buttoncourses1 btn rounded-0 btn-outline">Data Science </button>
-                <h5>How To Create Mobile Apps <br> Using Iconic</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="buttoncrs btn btn-primary1 rounded-0 btn-outline"> <a href="silabus.html">Follow Course </a>
-                </button>
+
+            <div class="cards1 col-lg-3 col-md-4 col-sm-12 mb-2">
+              <div class="gambarcard"> 
+              <img src="img/gbrrag.jpg" class="card-img-top" alt="data science">
+            </div> 
+            <div class="feature-1">
+                <button class="buttoncourses btn btn-primary rounded-0 btn-outline" >Data Science </button>
+                <h5>How To Learn Data Science <br> With Python</h5>
+                <p class="card-text">The data science field is very broad, and there’s a tremendous amount of available information. 
+                  That means it can be difficult to determine what you should focus on. </p>
+                <p><a href="silabus.html" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
               </div>
             </div>
           </div>
 
-          <div class="popularrow1 row ">
-            <div class="col-lg-4 col-md-6 d-none  d-md-block">
-              <img src="img/uiux.png" class="imgcourse card-img-top" alt="mobile">
-              <div class="feature-1 border ">
-                <button class="buttoncourses1 btn rounded-0 btn-outline">UI UX Designer </button>
-                <h5>How To Create Mobile Apps <br> Using Iconic</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                <button class="buttoncrs btn btn-primary1 rounded-0 btn-outline"> <a href="silabus.html">Follow Course </a>
-                </button>
+
+          <div class="popularrow2 row">
+            
+            <div class="cards1 col-lg-3 col-md-4 ">
+              <div class="gambarcard">
+              <img src="img/uiux2.jpg" class="card-img-top"alt="mobile">
+            </div>
+              <div class="feature-1 ">
+                <button class="buttoncourses btn btn-primary rounded-0 btn-outline">UI/UX Design </button>
+                <h5>How To Learn UI UX Design <br> With Figma</h5>
+                <p class="card-text">Learn UI UX Design step-by-step, from the very beginning.
+                  Use Figma to get a job in UI Design, User Interface, User Experience design, UX design & Web Design </p>
+                <p><a href="silabus.html" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 d-none  d-md-block">
-              <img src="img/mobile.png" class="card-img-top" alt="frontend">
-              <div class="feature-1 border">
-                <button class="buttoncourses1 btn rounded-0 btn-outline">Mobile Application </button>
-                <h5>How To Create Mobile Apps <br> Using Iconic</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="buttoncrs btn btn-primary1 rounded-0 btn-outline"> <a href="silabus.html">Follow Course </a>
-                </button>
+            
+            <div class="cards1 col-lg-3 col-md-4 ">
+              <div class="gambarcard">
+              <img src="img/cybersec.jpg" class="card-img-top" alt="frontend">
+              </div>
+              <div class="feature-1">
+                <button class="buttoncourses btn btn-primary rounded-0 btn-outline" >Cyber Security </button>
+                <h5>How To Learn Cyber Security <br> For Beginner</h5>
+                <p class="card-text">Become a Cyber Security Specialist, Learn How to Stop Hackers, Prevent Hacking, Learn IT Security & INFOSEC
+                  Start a career in cyber security. Become a cyber security specialist.  </p>
+                <p><a href="silabus.html" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
               </div>
             </div>
-            <div class="bordercourse3 col-lg-4 col-md-6">
-              <img src="img/cyber.png" class="imgcourse card-img-top" alt="data science">
-              <div class="feature-1 border">
-                <button class="buttoncourses1 btn rounded-0 btn-outline">Cyber Security </button>
-                <h5>How To Create Mobile Apps <br> Using Iconic</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="buttoncrs btn btn-primary1 rounded-0 btn-outline"> <a href="silabus.html">Follow Course </a>
-                </button>
+
+            <div class="cards1 col-lg-3 col-md-4 ">
+              <div class="gambarcard"> 
+              <img src="img/softwaretester.jpg" class="card-img-top" alt="data science">
+            </div> 
+            <div class="feature-1">
+                <button class="buttoncourses btn btn-primary rounded-0 btn-outline" >Software Tester </button>
+                <h5>How To Learn Software Tester <br> With Selenium</h5>
+                <p class="card-text">Become a professional software tester starting from a scratch. 
+                  In the following sections, we focus on the fundamentals of software testing as well as more advanced lectures.</p>
+                <p><a href="silabus.html" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
               </div>
             </div>
           </div>
 
         </div>
       </div>
+      <!--For Mobile-->
       <div class="mt-4 d-block  d-md-none">
         <button type="button" class="seemore btn btn-outline-primary">See More</button>
       </div>
@@ -185,7 +200,7 @@
                   <input type="email" class="form-control border-0" placeholder="Your Email" required="required" />
               </div>
               <div>
-                  <button style="background-color: #383414; font-size: 16px; font-weight: 600;" class="btn btn-lg btn-secondary btn-block border-0" type="submit">Submit Now</button>
+                  <button style="background-color: #383414; font-size: 16px; font-weight: 600;" class="btn btn-md btn-secondary btn-block border-0" type="submit">Submit Now</button>
               </div>
           </form>
       </div>
